@@ -1,0 +1,20 @@
+CA Brief description
+Program will read in documents from ap_doc.txt
+number each document in a dictionary with key for each consectutive documents -> ["doc1":...]
+know which words appear in each document.
+each entry in document should have a word as the key -> so every word should be a key.
+and then the document number this word is found in eg "stock" is found in "doc1","doc4" etc
+this will make it easier to find which document you are looking for.
+
+Program will read in file ap_docs.txt
+prompt user to do one of three things. 1) search for documents that match the search 
+2) display a document that is similar to search.
+diplay what documents this word is found in. Then ask user what they want to do. 
+2-> select what document they want. Print that document.
+If word selected is not found in documents. Menu keeps ticking until quit is selected.
+
+dictionary["key":values]
+so key will contain the string words
+value will contain numbers of which document word is in eg ["Hello":"1,4,7"]
+
+remove punctuation in dicts using string.punctuation 
